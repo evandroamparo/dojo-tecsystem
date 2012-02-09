@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5d0e4741-eb0f-4b61-a910-3644edf5bdc4" name="Evandro@EVANDRO-PC 2012-01-18 13:13:12" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5c4fc190-0d4f-4cca-98a1-d48f0bc5d10c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-01-18 13_13_12" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-18T13:13:12.5249024-02:00" queuing="2012-01-18T13:13:12.6929120-02:00" start="2012-01-18T13:13:12.7689164-02:00" finish="2012-01-18T13:13:13.0439321-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeveRetornarUmaNotaDeDoisReaisParaDoisReais" storage="c:\users\evandro\desktop\notastests\notastests\bin\debug\notastests.dll" id="ba3b7b20-8653-09aa-676e-654bedb4276d">
+      <Execution id="c60386a8-eba4-4948-b0c0-8ae5455f08c6" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/NotasTests/NotasTests/bin/Debug/NotasTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NotasTests.UnitTest1, NotasTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornarUmaNotaDeDoisReaisParaDoisReais" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ba3b7b20-8653-09aa-676e-654bedb4276d" executionId="c60386a8-eba4-4948-b0c0-8ae5455f08c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c60386a8-eba4-4948-b0c0-8ae5455f08c6" testId="ba3b7b20-8653-09aa-676e-654bedb4276d" testName="DeveRetornarUmaNotaDeDoisReaisParaDoisReais" computerName="EVANDRO-PC" duration="00:00:00.0156567" startTime="2012-01-18T13:13:12.7309142-02:00" endTime="2012-01-18T13:13:13.0229309-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c60386a8-eba4-4948-b0c0-8ae5455f08c6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

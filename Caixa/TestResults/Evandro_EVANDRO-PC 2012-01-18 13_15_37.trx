@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="adf393dc-a476-4ba1-858d-5e8266ac8f49" name="Evandro@EVANDRO-PC 2012-01-18 13:15:37" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5c4fc190-0d4f-4cca-98a1-d48f0bc5d10c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-01-18 13_15_37" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-18T13:15:37.5721987-02:00" queuing="2012-01-18T13:15:37.6172012-02:00" start="2012-01-18T13:15:37.6302020-02:00" finish="2012-01-18T13:15:38.0042234-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NaoDevePermitirRetiradaDeNotas" storage="c:\users\evandro\desktop\notastests\notastests\bin\debug\notastests.dll" id="8632ae57-c1ff-093d-5769-562c40e13a9c">
+      <Execution id="52f62041-c43c-4008-8314-bd3b0cf3762b" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/NotasTests/NotasTests/bin/Debug/NotasTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NotasTests.UnitTest1, NotasTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NaoDevePermitirRetiradaDeNotas" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8632ae57-c1ff-093d-5769-562c40e13a9c" executionId="52f62041-c43c-4008-8314-bd3b0cf3762b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="52f62041-c43c-4008-8314-bd3b0cf3762b" testId="8632ae57-c1ff-093d-5769-562c40e13a9c" testName="NaoDevePermitirRetiradaDeNotas" computerName="EVANDRO-PC" duration="00:00:00.0457828" startTime="2012-01-18T13:15:37.6372024-02:00" endTime="2012-01-18T13:15:37.9802220-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52f62041-c43c-4008-8314-bd3b0cf3762b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at NotasTests.UnitTest1.NaoDevePermitirRetiradaDeNotas() in C:\Users\Evandro\Desktop\NotasTests\NotasTests\UnitTest1.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

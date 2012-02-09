@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b24de78a-bdca-486d-9268-5fb6fb66e03a" name="Evandro@EVANDRO-PC 2012-01-18 13:24:00" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5c4fc190-0d4f-4cca-98a1-d48f0bc5d10c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-01-18 13_24_00" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-18T13:24:00.5219657-02:00" queuing="2012-01-18T13:24:00.5729687-02:00" start="2012-01-18T13:24:00.5899696-02:00" finish="2012-01-18T13:24:00.9269889-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NaoDevePermitirRetiradaDeNotas" storage="c:\users\evandro\desktop\notastests\notastests\bin\debug\notastests.dll" id="8632ae57-c1ff-093d-5769-562c40e13a9c">
+      <Execution id="f1cc4b01-5e89-48d1-a769-247c8f4cb4cb" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/NotasTests/NotasTests/bin/Debug/NotasTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NotasTests.UnitTest1, NotasTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NaoDevePermitirRetiradaDeNotas" />
+    </UnitTest>
+    <UnitTest name="DeveRetornarUmaNotaDeDoisReaisParaDoisReais" storage="c:\users\evandro\desktop\notastests\notastests\bin\debug\notastests.dll" id="ba3b7b20-8653-09aa-676e-654bedb4276d">
+      <Execution id="043df16c-641a-40dc-9b69-ec7b8228f552" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/NotasTests/NotasTests/bin/Debug/NotasTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NotasTests.UnitTest1, NotasTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornarUmaNotaDeDoisReaisParaDoisReais" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8632ae57-c1ff-093d-5769-562c40e13a9c" executionId="f1cc4b01-5e89-48d1-a769-247c8f4cb4cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba3b7b20-8653-09aa-676e-654bedb4276d" executionId="043df16c-641a-40dc-9b69-ec7b8228f552" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f1cc4b01-5e89-48d1-a769-247c8f4cb4cb" testId="8632ae57-c1ff-093d-5769-562c40e13a9c" testName="NaoDevePermitirRetiradaDeNotas" computerName="EVANDRO-PC" duration="00:00:00.0339757" startTime="2012-01-18T13:24:00.6009703-02:00" endTime="2012-01-18T13:24:00.8899868-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1cc4b01-5e89-48d1-a769-247c8f4cb4cb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at NotasTests.UnitTest1.NaoDevePermitirRetiradaDeNotas() in C:\Users\Evandro\Desktop\NotasTests\NotasTests\UnitTest1.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="043df16c-641a-40dc-9b69-ec7b8228f552" testId="ba3b7b20-8653-09aa-676e-654bedb4276d" testName="DeveRetornarUmaNotaDeDoisReaisParaDoisReais" computerName="EVANDRO-PC" duration="00:00:00.0006187" startTime="2012-01-18T13:24:00.8979873-02:00" endTime="2012-01-18T13:24:00.9029875-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="043df16c-641a-40dc-9b69-ec7b8228f552">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7a7a7a28-51e6-4a2f-8e95-b2d6fc71adae" name="Evandro@EVANDRO-PC 2012-02-03 13:12:54" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e69edb5e-b0a5-4ab0-9474-5312592fd514">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-02-03 13_12_54" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-03T13:12:54.1556246-02:00" queuing="2012-02-03T13:12:54.3226341-02:00" start="2012-02-03T13:12:54.3686368-02:00" finish="2012-02-03T13:12:55.3266916-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestJunior" storage="c:\users\evandro\desktop\autoreslivrostest\autoreslivrostest\bin\debug\autoreslivrostest.dll" id="3dc6ce07-7fbd-0801-025c-4f53138408a3">
+      <Execution id="c51d25c1-93af-485c-bbf4-aaa92b628643" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/AutoresLivrosTest/AutoresLivrosTest/bin/Debug/AutoresLivrosTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoresLivrosTest.AutoresTest, AutoresLivrosTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJunior" />
+    </UnitTest>
+    <UnitTest name="TestDeveRetornarSomenteNome" storage="c:\users\evandro\desktop\autoreslivrostest\autoreslivrostest\bin\debug\autoreslivrostest.dll" id="2ae87283-495d-6455-fa7b-b6d749ef575d">
+      <Execution id="34aef422-649d-45fe-8712-bbe2499a9fd1" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/AutoresLivrosTest/AutoresLivrosTest/bin/Debug/AutoresLivrosTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoresLivrosTest.AutoresTest, AutoresLivrosTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeveRetornarSomenteNome" />
+    </UnitTest>
+    <UnitTest name="TestDeveRetornarSILVAJoaoQuandoJoaoSilva" storage="c:\users\evandro\desktop\autoreslivrostest\autoreslivrostest\bin\debug\autoreslivrostest.dll" id="efe0f134-120c-7ec6-8857-d2754fb0dc38">
+      <Execution id="87e00798-1681-4237-b184-847fffd56e8c" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/AutoresLivrosTest/AutoresLivrosTest/bin/Debug/AutoresLivrosTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoresLivrosTest.AutoresTest, AutoresLivrosTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeveRetornarSILVAJoaoQuandoJoaoSilva" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2ae87283-495d-6455-fa7b-b6d749ef575d" executionId="34aef422-649d-45fe-8712-bbe2499a9fd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dc6ce07-7fbd-0801-025c-4f53138408a3" executionId="c51d25c1-93af-485c-bbf4-aaa92b628643" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efe0f134-120c-7ec6-8857-d2754fb0dc38" executionId="87e00798-1681-4237-b184-847fffd56e8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34aef422-649d-45fe-8712-bbe2499a9fd1" testId="2ae87283-495d-6455-fa7b-b6d749ef575d" testName="TestDeveRetornarSomenteNome" computerName="EVANDRO-PC" duration="00:00:00.0214776" startTime="2012-02-03T13:12:54.4146394-02:00" endTime="2012-02-03T13:12:55.1626822-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34aef422-649d-45fe-8712-bbe2499a9fd1">
+    </UnitTestResult>
+    <UnitTestResult executionId="c51d25c1-93af-485c-bbf4-aaa92b628643" testId="3dc6ce07-7fbd-0801-025c-4f53138408a3" testName="TestJunior" computerName="EVANDRO-PC" duration="00:00:00.0456552" startTime="2012-02-03T13:12:55.1836834-02:00" endTime="2012-02-03T13:12:55.2356864-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c51d25c1-93af-485c-bbf4-aaa92b628643">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;, &gt;. Actual:&lt;SILVA JUNIOR, Joao&gt;. </Message>
+          <StackTrace>   at AutoresLivrosTest.AutoresTest.TestJunior() in C:\Users\Evandro\Desktop\AutoresLivrosTest\AutoresLivrosTest\UnitTest1.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87e00798-1681-4237-b184-847fffd56e8c" testId="efe0f134-120c-7ec6-8857-d2754fb0dc38" testName="TestDeveRetornarSILVAJoaoQuandoJoaoSilva" computerName="EVANDRO-PC" duration="00:00:00.0004035" startTime="2012-02-03T13:12:55.2506872-02:00" endTime="2012-02-03T13:12:55.2566876-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87e00798-1681-4237-b184-847fffd56e8c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

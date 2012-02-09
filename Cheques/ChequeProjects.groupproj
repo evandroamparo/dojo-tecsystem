@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{407F3847-667C-49D1-A080-AA55EA56467D}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Cheque.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\TesteCheque.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Cheque">
+			<MSBuild Projects="Cheque.dproj"/>
+		</Target>
+		<Target Name="Cheque:Clean">
+			<MSBuild Targets="Clean" Projects="Cheque.dproj"/>
+		</Target>
+		<Target Name="Cheque:Make">
+			<MSBuild Targets="Make" Projects="Cheque.dproj"/>
+		</Target>
+		<Target Name="TesteCheque">
+			<MSBuild Projects="Test\TesteCheque.dproj"/>
+		</Target>
+		<Target Name="TesteCheque:Clean">
+			<MSBuild Targets="Clean" Projects="Test\TesteCheque.dproj"/>
+		</Target>
+		<Target Name="TesteCheque:Make">
+			<MSBuild Targets="Make" Projects="Test\TesteCheque.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Cheque;TesteCheque"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Cheque:Clean;TesteCheque:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Cheque:Make;TesteCheque:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

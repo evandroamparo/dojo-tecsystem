@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5952a032-e3cb-4596-b34f-4602cd6bc8ca" name="Evandro@EVANDRO-PC 2012-01-27 12:50:45" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f8ab3fa1-021e-44e8-9007-33e97e796be4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-01-27 12_50_45" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-27T12:50:45.6882183-02:00" queuing="2012-01-27T12:50:45.7432214-02:00" start="2012-01-27T12:50:45.7562222-02:00" finish="2012-01-27T12:50:46.0542392-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeveRetornar22ParaB" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="f52979f1-bbd7-da7b-69e4-57877008dccf">
+      <Execution id="8c79d23a-9829-4640-a718-3ebc93561f3f" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar22ParaB" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar2ParaA" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="a69c8959-0c41-eb3f-e599-c2634965f942">
+      <Execution id="43974e92-0306-496f-8e0b-eec04b3704f9" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar2ParaA" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a69c8959-0c41-eb3f-e599-c2634965f942" executionId="43974e92-0306-496f-8e0b-eec04b3704f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f52979f1-bbd7-da7b-69e4-57877008dccf" executionId="8c79d23a-9829-4640-a718-3ebc93561f3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="43974e92-0306-496f-8e0b-eec04b3704f9" testId="a69c8959-0c41-eb3f-e599-c2634965f942" testName="DeveRetornar2ParaA" computerName="EVANDRO-PC" duration="00:00:00.0127096" startTime="2012-01-27T12:50:45.7632226-02:00" endTime="2012-01-27T12:50:46.0242375-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43974e92-0306-496f-8e0b-eec04b3704f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c79d23a-9829-4640-a718-3ebc93561f3f" testId="f52979f1-bbd7-da7b-69e4-57877008dccf" testName="DeveRetornar22ParaB" computerName="EVANDRO-PC" duration="00:00:00.0002747" startTime="2012-01-27T12:50:46.0302378-02:00" endTime="2012-01-27T12:50:46.0352381-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c79d23a-9829-4640-a718-3ebc93561f3f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

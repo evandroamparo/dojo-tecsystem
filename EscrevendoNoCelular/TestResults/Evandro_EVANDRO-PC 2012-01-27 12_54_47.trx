@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="40d29766-92fe-4a5a-a8dd-7066ecd8e1cb" name="Evandro@EVANDRO-PC 2012-01-27 12:54:47" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f8ab3fa1-021e-44e8-9007-33e97e796be4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-01-27 12_54_47" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-27T12:54:47.5120498-02:00" queuing="2012-01-27T12:54:51.2472634-02:00" start="2012-01-27T12:54:51.2632644-02:00" finish="2012-01-27T12:54:51.5612814-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeveRetornar444ParaJ" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="f73095fa-c95a-34e9-14f2-a865ec10d214">
+      <Execution id="94f78de1-123b-486a-ba6f-5ea7486c2e59" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar444ParaJ" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f73095fa-c95a-34e9-14f2-a865ec10d214" executionId="94f78de1-123b-486a-ba6f-5ea7486c2e59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="94f78de1-123b-486a-ba6f-5ea7486c2e59" testId="f73095fa-c95a-34e9-14f2-a865ec10d214" testName="DeveRetornar444ParaJ" computerName="EVANDRO-PC" duration="00:00:00.0129969" startTime="2012-01-27T12:54:51.2782652-02:00" endTime="2012-01-27T12:54:51.5362800-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94f78de1-123b-486a-ba6f-5ea7486c2e59">
+    </UnitTestResult>
+  </Results>
+</TestRun>

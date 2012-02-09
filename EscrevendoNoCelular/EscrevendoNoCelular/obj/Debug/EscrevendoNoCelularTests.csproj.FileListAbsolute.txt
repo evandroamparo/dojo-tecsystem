@@ -1,0 +1,5 @@
+C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\bin\Debug\EscrevendoNoCelular.dll
+C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\bin\Debug\EscrevendoNoCelular.pdb
+C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\obj\Debug\EscrevendoNoCelular.dll
+C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\obj\Debug\EscrevendoNoCelular.pdb

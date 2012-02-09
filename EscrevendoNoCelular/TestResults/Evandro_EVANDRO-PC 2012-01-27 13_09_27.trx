@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b8f16058-e699-4aa3-85ba-a26647e57762" name="Evandro@EVANDRO-PC 2012-01-27 13:09:27" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f8ab3fa1-021e-44e8-9007-33e97e796be4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-01-27 13_09_27" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-27T13:09:27.0073541-02:00" queuing="2012-01-27T13:09:27.0683575-02:00" start="2012-01-27T13:09:27.0923589-02:00" finish="2012-01-27T13:09:27.5573855-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TesteDojo" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b">
+      <Execution id="9b7d3f10-2066-4789-a946-42674b173438" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteDojo" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar5ParaJ" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="50df4117-5178-5c09-6387-30fc32637acc">
+      <Execution id="972a4b02-da5d-4264-a65b-bded6cca9126" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar5ParaJ" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar3ParaD" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="7defdf68-08f2-317a-4a80-9a1c9b989a85">
+      <Execution id="017eafcb-f762-40aa-9fac-0a61f4984c7c" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar3ParaD" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar22ParaB" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="f52979f1-bbd7-da7b-69e4-57877008dccf">
+      <Execution id="ef5dd052-5d3a-474e-8c03-ec51564de5bb" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar22ParaB" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar222ParaC" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="64cd223a-7c3d-02f0-e53a-1e370d20db31">
+      <Execution id="050e8d31-2b57-4246-85f3-ab044a506d7d" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar222ParaC" />
+    </UnitTest>
+    <UnitTest name="TesteTecsystemTecnologiaEmSoftware" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="f00d0e02-3a30-9fd2-667f-e18e0e68c89b">
+      <Execution id="8f76256a-e2e0-4c9f-ab34-3660cb1eb017" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteTecsystemTecnologiaEmSoftware" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar2ParaA" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="a69c8959-0c41-eb3f-e599-c2634965f942">
+      <Execution id="8fdff626-a8fd-4095-8997-d2ecdc468142" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar2ParaA" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="50df4117-5178-5c09-6387-30fc32637acc" executionId="972a4b02-da5d-4264-a65b-bded6cca9126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64cd223a-7c3d-02f0-e53a-1e370d20db31" executionId="050e8d31-2b57-4246-85f3-ab044a506d7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7defdf68-08f2-317a-4a80-9a1c9b989a85" executionId="017eafcb-f762-40aa-9fac-0a61f4984c7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b" executionId="9b7d3f10-2066-4789-a946-42674b173438" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a69c8959-0c41-eb3f-e599-c2634965f942" executionId="8fdff626-a8fd-4095-8997-d2ecdc468142" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f00d0e02-3a30-9fd2-667f-e18e0e68c89b" executionId="8f76256a-e2e0-4c9f-ab34-3660cb1eb017" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f52979f1-bbd7-da7b-69e4-57877008dccf" executionId="ef5dd052-5d3a-474e-8c03-ec51564de5bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="972a4b02-da5d-4264-a65b-bded6cca9126" testId="50df4117-5178-5c09-6387-30fc32637acc" testName="DeveRetornar5ParaJ" computerName="EVANDRO-PC" duration="00:00:00.0622772" startTime="2012-01-27T13:09:27.1173604-02:00" endTime="2012-01-27T13:09:27.4523795-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="972a4b02-da5d-4264-a65b-bded6cca9126">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EscrevendoNoCelular.UnitTest1.DeveRetornar5ParaJ threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at EscrevendoNoCelular.Celular.GetTeclas() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\Celular.cs:line 29
+   at EscrevendoNoCelular.UnitTest1.DeveRetornar5ParaJ() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\UnitTest1.cs:line 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="050e8d31-2b57-4246-85f3-ab044a506d7d" testId="64cd223a-7c3d-02f0-e53a-1e370d20db31" testName="DeveRetornar222ParaC" computerName="EVANDRO-PC" duration="00:00:00.0115163" startTime="2012-01-27T13:09:27.4603800-02:00" endTime="2012-01-27T13:09:27.4753808-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="050e8d31-2b57-4246-85f3-ab044a506d7d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;222&gt;. Actual:&lt;4&gt;. </Message>
+          <StackTrace>   at EscrevendoNoCelular.UnitTest1.DeveRetornar222ParaC() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\UnitTest1.cs:line 90
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="017eafcb-f762-40aa-9fac-0a61f4984c7c" testId="7defdf68-08f2-317a-4a80-9a1c9b989a85" testName="DeveRetornar3ParaD" computerName="EVANDRO-PC" duration="00:00:00.0022501" startTime="2012-01-27T13:09:27.4803811-02:00" endTime="2012-01-27T13:09:27.4863815-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="017eafcb-f762-40aa-9fac-0a61f4984c7c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EscrevendoNoCelular.UnitTest1.DeveRetornar3ParaD threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at EscrevendoNoCelular.Celular.GetTeclas() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\Celular.cs:line 29
+   at EscrevendoNoCelular.UnitTest1.DeveRetornar3ParaD() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\UnitTest1.cs:line 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b7d3f10-2066-4789-a946-42674b173438" testId="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b" testName="TesteDojo" computerName="EVANDRO-PC" duration="00:00:00.0016528" startTime="2012-01-27T13:09:27.4933819-02:00" endTime="2012-01-27T13:09:27.4973821-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b7d3f10-2066-4789-a946-42674b173438">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EscrevendoNoCelular.UnitTest1.TesteDojo threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at EscrevendoNoCelular.Celular.GetTeclas() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\Celular.cs:line 29
+   at EscrevendoNoCelular.UnitTest1.TesteDojo() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\UnitTest1.cs:line 118
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8fdff626-a8fd-4095-8997-d2ecdc468142" testId="a69c8959-0c41-eb3f-e599-c2634965f942" testName="DeveRetornar2ParaA" computerName="EVANDRO-PC" duration="00:00:00.0023490" startTime="2012-01-27T13:09:27.5033824-02:00" endTime="2012-01-27T13:09:27.5103828-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fdff626-a8fd-4095-8997-d2ecdc468142">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EscrevendoNoCelular.UnitTest1.DeveRetornar2ParaA threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at EscrevendoNoCelular.Celular.GetTeclas() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\Celular.cs:line 29
+   at EscrevendoNoCelular.UnitTest1.DeveRetornar2ParaA() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\UnitTest1.cs:line 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f76256a-e2e0-4c9f-ab34-3660cb1eb017" testId="f00d0e02-3a30-9fd2-667f-e18e0e68c89b" testName="TesteTecsystemTecnologiaEmSoftware" computerName="EVANDRO-PC" duration="00:00:00.0017391" startTime="2012-01-27T13:09:27.5173832-02:00" endTime="2012-01-27T13:09:27.5223835-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f76256a-e2e0-4c9f-ab34-3660cb1eb017">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EscrevendoNoCelular.UnitTest1.TesteTecsystemTecnologiaEmSoftware threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at EscrevendoNoCelular.Celular.GetTeclas() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\Celular.cs:line 29
+   at EscrevendoNoCelular.UnitTest1.TesteTecsystemTecnologiaEmSoftware() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\UnitTest1.cs:line 128
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef5dd052-5d3a-474e-8c03-ec51564de5bb" testId="f52979f1-bbd7-da7b-69e4-57877008dccf" testName="DeveRetornar22ParaB" computerName="EVANDRO-PC" duration="00:00:00.0023385" startTime="2012-01-27T13:09:27.5293839-02:00" endTime="2012-01-27T13:09:27.5353843-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef5dd052-5d3a-474e-8c03-ec51564de5bb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;22&gt;. Actual:&lt;3&gt;. </Message>
+          <StackTrace>   at EscrevendoNoCelular.UnitTest1.DeveRetornar22ParaB() in C:\Users\Evandro\Desktop\EscrevendoNoCelular\EscrevendoNoCelular\UnitTest1.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
