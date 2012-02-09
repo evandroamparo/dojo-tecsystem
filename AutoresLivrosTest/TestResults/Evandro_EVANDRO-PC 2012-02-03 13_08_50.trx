@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="62ea43ec-0521-4bfd-a4c4-95a5f24c8d89" name="Evandro@EVANDRO-PC 2012-02-03 13:08:50" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e69edb5e-b0a5-4ab0-9474-5312592fd514">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-02-03 13_08_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-03T13:08:50.9947166-02:00" queuing="2012-02-03T13:08:51.4617433-02:00" start="2012-02-03T13:08:51.5407478-02:00" finish="2012-02-03T13:08:52.2467882-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestDeveRetornarSomenteNome" storage="c:\users\evandro\desktop\autoreslivrostest\autoreslivrostest\bin\debug\autoreslivrostest.dll" id="2ae87283-495d-6455-fa7b-b6d749ef575d">
+      <Execution id="8f87670b-87f7-4d58-a290-f0686f6bf8b8" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/AutoresLivrosTest/AutoresLivrosTest/bin/Debug/AutoresLivrosTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoresLivrosTest.AutoresTest, AutoresLivrosTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeveRetornarSomenteNome" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2ae87283-495d-6455-fa7b-b6d749ef575d" executionId="8f87670b-87f7-4d58-a290-f0686f6bf8b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8f87670b-87f7-4d58-a290-f0686f6bf8b8" testId="2ae87283-495d-6455-fa7b-b6d749ef575d" testName="TestDeveRetornarSomenteNome" computerName="EVANDRO-PC" duration="00:00:00.0762911" startTime="2012-02-03T13:08:51.5707495-02:00" endTime="2012-02-03T13:08:52.0977797-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f87670b-87f7-4d58-a290-f0686f6bf8b8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;, &gt;. Actual:&lt;JOAO&gt;. </Message>
+          <StackTrace>   at AutoresLivrosTest.AutoresTest.TestDeveRetornarSomenteNome() in C:\Users\Evandro\Desktop\AutoresLivrosTest\AutoresLivrosTest\UnitTest1.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

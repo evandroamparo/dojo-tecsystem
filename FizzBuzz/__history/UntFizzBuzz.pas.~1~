@@ -1,0 +1,19 @@
+unit UntFizzBuzz;
+
+interface
+
+type
+  TFizzBuzz = class
+    class function ToString(n: Integer): string;
+  end;
+
+implementation
+
+{ TFizzBuzz }
+
+class function TFizzBuzz.ToString(n: Integer): string;
+begin
+
+end;
+
+end.

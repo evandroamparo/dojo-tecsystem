@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6d3d46d0-6db1-47cc-a307-d54b1f42354a" name="Evandro@EVANDRO-PC 2012-01-27 13:25:47" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f8ab3fa1-021e-44e8-9007-33e97e796be4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-01-27 13_25_47" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-27T13:25:47.5134358-02:00" queuing="2012-01-27T13:25:47.5744393-02:00" start="2012-01-27T13:25:47.5884401-02:00" finish="2012-01-27T13:25:47.9974635-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TesteDojo" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b">
+      <Execution id="7560d385-e03e-4be3-8c96-5dc0aee95b2f" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteDojo" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar5ParaJ" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="50df4117-5178-5c09-6387-30fc32637acc">
+      <Execution id="59fc4a9b-a97a-42f5-a191-92f1a11b3544" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar5ParaJ" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar3ParaD" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="7defdf68-08f2-317a-4a80-9a1c9b989a85">
+      <Execution id="9390b0f6-0ba9-485b-b308-64db34d8c95c" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar3ParaD" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar22ParaB" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="f52979f1-bbd7-da7b-69e4-57877008dccf">
+      <Execution id="d47e0fa8-6ef2-48f6-ad3a-f565274f17f9" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar22ParaB" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar222ParaC" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="64cd223a-7c3d-02f0-e53a-1e370d20db31">
+      <Execution id="bbccb84c-7a0e-4157-9ac4-e10a500107a0" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar222ParaC" />
+    </UnitTest>
+    <UnitTest name="TesteTecsystemTecnologiaEmSoftware" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="f00d0e02-3a30-9fd2-667f-e18e0e68c89b">
+      <Execution id="100ea0b6-1aee-4bd7-8cb6-f3be09702456" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteTecsystemTecnologiaEmSoftware" />
+    </UnitTest>
+    <UnitTest name="DeveRetornar2ParaA" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="a69c8959-0c41-eb3f-e599-c2634965f942">
+      <Execution id="bbafafaf-f2a1-41c3-bc07-c612ba33057d" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeveRetornar2ParaA" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="50df4117-5178-5c09-6387-30fc32637acc" executionId="59fc4a9b-a97a-42f5-a191-92f1a11b3544" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64cd223a-7c3d-02f0-e53a-1e370d20db31" executionId="bbccb84c-7a0e-4157-9ac4-e10a500107a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7defdf68-08f2-317a-4a80-9a1c9b989a85" executionId="9390b0f6-0ba9-485b-b308-64db34d8c95c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b" executionId="7560d385-e03e-4be3-8c96-5dc0aee95b2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a69c8959-0c41-eb3f-e599-c2634965f942" executionId="bbafafaf-f2a1-41c3-bc07-c612ba33057d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f00d0e02-3a30-9fd2-667f-e18e0e68c89b" executionId="100ea0b6-1aee-4bd7-8cb6-f3be09702456" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f52979f1-bbd7-da7b-69e4-57877008dccf" executionId="d47e0fa8-6ef2-48f6-ad3a-f565274f17f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="59fc4a9b-a97a-42f5-a191-92f1a11b3544" testId="50df4117-5178-5c09-6387-30fc32637acc" testName="DeveRetornar5ParaJ" computerName="EVANDRO-PC" duration="00:00:00.0129751" startTime="2012-01-27T13:25:47.6294424-02:00" endTime="2012-01-27T13:25:47.9034581-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59fc4a9b-a97a-42f5-a191-92f1a11b3544">
+    </UnitTestResult>
+    <UnitTestResult executionId="bbccb84c-7a0e-4157-9ac4-e10a500107a0" testId="64cd223a-7c3d-02f0-e53a-1e370d20db31" testName="DeveRetornar222ParaC" computerName="EVANDRO-PC" duration="00:00:00.0002913" startTime="2012-01-27T13:25:47.9114586-02:00" endTime="2012-01-27T13:25:47.9144587-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbccb84c-7a0e-4157-9ac4-e10a500107a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="9390b0f6-0ba9-485b-b308-64db34d8c95c" testId="7defdf68-08f2-317a-4a80-9a1c9b989a85" testName="DeveRetornar3ParaD" computerName="EVANDRO-PC" duration="00:00:00.0003610" startTime="2012-01-27T13:25:47.9214591-02:00" endTime="2012-01-27T13:25:47.9254594-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9390b0f6-0ba9-485b-b308-64db34d8c95c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7560d385-e03e-4be3-8c96-5dc0aee95b2f" testId="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b" testName="TesteDojo" computerName="EVANDRO-PC" duration="00:00:00.0002723" startTime="2012-01-27T13:25:47.9324598-02:00" endTime="2012-01-27T13:25:47.9364600-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7560d385-e03e-4be3-8c96-5dc0aee95b2f">
+    </UnitTestResult>
+    <UnitTestResult executionId="bbafafaf-f2a1-41c3-bc07-c612ba33057d" testId="a69c8959-0c41-eb3f-e599-c2634965f942" testName="DeveRetornar2ParaA" computerName="EVANDRO-PC" duration="00:00:00.0002954" startTime="2012-01-27T13:25:47.9424603-02:00" endTime="2012-01-27T13:25:47.9464606-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbafafaf-f2a1-41c3-bc07-c612ba33057d">
+    </UnitTestResult>
+    <UnitTestResult executionId="100ea0b6-1aee-4bd7-8cb6-f3be09702456" testId="f00d0e02-3a30-9fd2-667f-e18e0e68c89b" testName="TesteTecsystemTecnologiaEmSoftware" computerName="EVANDRO-PC" duration="00:00:00.0003136" startTime="2012-01-27T13:25:47.9594613-02:00" endTime="2012-01-27T13:25:47.9634615-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="100ea0b6-1aee-4bd7-8cb6-f3be09702456">
+    </UnitTestResult>
+    <UnitTestResult executionId="d47e0fa8-6ef2-48f6-ad3a-f565274f17f9" testId="f52979f1-bbd7-da7b-69e4-57877008dccf" testName="DeveRetornar22ParaB" computerName="EVANDRO-PC" duration="00:00:00.0002844" startTime="2012-01-27T13:25:47.9684618-02:00" endTime="2012-01-27T13:25:47.9724621-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d47e0fa8-6ef2-48f6-ad3a-f565274f17f9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

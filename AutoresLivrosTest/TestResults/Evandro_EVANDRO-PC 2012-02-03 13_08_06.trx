@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f899b9eb-c8db-426a-b08a-dbbfdc285e64" name="Evandro@EVANDRO-PC 2012-02-03 13:08:06" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e69edb5e-b0a5-4ab0-9474-5312592fd514">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-02-03 13_08_06" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-03T13:08:06.7131838-02:00" queuing="2012-02-03T13:08:08.5832908-02:00" start="2012-02-03T13:08:08.6942971-02:00" finish="2012-02-03T13:08:12.3955088-02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="EVANDRO-PC" outcome="Error" timestamp="2012-02-03T13:08:12.3905086-02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestDeveRetornarSILVAJoaoQuandoJoaoSilva" storage="c:\users\evandro\desktop\autoreslivrostest\autoreslivrostest\bin\debug\autoreslivrostest.dll" id="efe0f134-120c-7ec6-8857-d2754fb0dc38">
+      <Execution id="fca08e5c-d4b7-4706-84dd-473ca7380263" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/AutoresLivrosTest/AutoresLivrosTest/bin/Debug/AutoresLivrosTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AutoresLivrosTest.AutoresTest, AutoresLivrosTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeveRetornarSILVAJoaoQuandoJoaoSilva" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="efe0f134-120c-7ec6-8857-d2754fb0dc38" executionId="fca08e5c-d4b7-4706-84dd-473ca7380263" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fca08e5c-d4b7-4706-84dd-473ca7380263" testId="efe0f134-120c-7ec6-8857-d2754fb0dc38" testName="TestDeveRetornarSILVAJoaoQuandoJoaoSilva" computerName="EVANDRO-PC" duration="00:00:03.6132066" startTime="2012-02-03T13:08:08.7823022-02:00" endTime="2012-02-03T13:08:12.3955088-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fca08e5c-d4b7-4706-84dd-473ca7380263">
+    </UnitTestResult>
+  </Results>
+</TestRun>

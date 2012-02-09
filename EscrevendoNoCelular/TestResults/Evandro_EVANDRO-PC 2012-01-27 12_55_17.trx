@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="17fce6dc-0f38-4253-8332-8c58ab16efd3" name="Evandro@EVANDRO-PC 2012-01-27 12:55:17" runUser="Evandro-PC\Evandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f8ab3fa1-021e-44e8-9007-33e97e796be4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Evandro_EVANDRO-PC 2012-01-27 12_55_17" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-27T12:55:17.7977820-02:00" queuing="2012-01-27T12:55:17.8727863-02:00" start="2012-01-27T12:55:17.8907874-02:00" finish="2012-01-27T12:55:18.2338070-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TesteDojo" storage="c:\users\evandro\desktop\escrevendonocelular\escrevendonocelular\bin\debug\escrevendonocelular.dll" id="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b">
+      <Execution id="34c5c0a6-ad7b-461e-8c9c-8a6b973a892f" />
+      <TestMethod codeBase="C:/Users/Evandro/Desktop/EscrevendoNoCelular/EscrevendoNoCelular/bin/Debug/EscrevendoNoCelular.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EscrevendoNoCelular.UnitTest1, EscrevendoNoCelular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteDojo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b" executionId="34c5c0a6-ad7b-461e-8c9c-8a6b973a892f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34c5c0a6-ad7b-461e-8c9c-8a6b973a892f" testId="8f7a37e7-fe1f-1da2-ff3e-01f35301f85b" testName="TesteDojo" computerName="EVANDRO-PC" duration="00:00:00.0181003" startTime="2012-01-27T12:55:17.8997879-02:00" endTime="2012-01-27T12:55:18.2098056-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34c5c0a6-ad7b-461e-8c9c-8a6b973a892f">
+    </UnitTestResult>
+  </Results>
+</TestRun>
