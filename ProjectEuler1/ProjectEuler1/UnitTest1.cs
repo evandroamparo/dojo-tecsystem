@@ -1,17 +1,17 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AutoresLivrosTest
+namespace ProjectEuler1
 {
    /// <summary>
    /// Summary description for UnitTest1
    /// </summary>
    [TestClass]
-   public class AutoresTest
+   public class UnitTest1
    {
-      public AutoresTest()
+      public UnitTest1()
       {
          //
          // TODO: Add constructor logic here
@@ -59,51 +59,30 @@ namespace AutoresLivrosTest
       #endregion
 
       [TestMethod]
-      public void TestDeveRetornarSILVAJoaoQuandoJoaoSilva()
+      public void TestMultiplosDe5MenoresQue10()
       {
-         Autores autores = new Autores();
-         String nome = autores.getNomeFormatado("Joao Silva");
-         Assert.AreEqual("SILVA, Joao", nome);
+         var problema1 = new Problema1();
+         var resultado = problema1.MultiplosDe5MenoresQue(10);
+         var esperado = new int[]{5};
+         CollectionAssert.AreEqual(esperado, resultado);
       }
 
       [TestMethod]
-      public void TestDeveRetornarSomenteNome()
+      public void TestMultiplosDe3MenoresQue10()
       {
-         Autores autores = new Autores();
-         String nome = autores.getNomeFormatado("Joao");
-         Assert.AreEqual("JOAO", nome);
+         var problema1 = new Problema1();
+         var resultado = problema1.MultiplosDe3MenoresQue(10);
+         var esperado = new int[] { 3, 6, 9 };
+         CollectionAssert.AreEqual(esperado, resultado);
       }
 
       [TestMethod]
-      public void TestJunior()
+      public void TestSomaMultiplosDe3E5MenoresQue10()
       {
-         Autores autores = new Autores();
-         String nome = autores.getNomeFormatado("Joao Silva Junior");
-         Assert.AreEqual("SILVA JUNIOR, Joao", nome);
-      }
-
-      [TestMethod]
-      public void TestPedroJoaoDaSilva()
-      {
-         Autores autores = new Autores();
-         String nome = autores.getNomeFormatado("Pedro Joao da Silva");
-         Assert.AreEqual("SILVA, Pedro Joao da", nome);
-      }
-
-      [TestMethod]
-      public void TestIniciaisMaiusculas()
-      {
-         Autores autores = new Autores();
-         String nome = autores.getNomeFormatado("pedro joao da silva");
-         Assert.AreEqual("SILVA, Pedro Joao da", nome);
-      }
-
-      [TestMethod]
-      public void TestJoaoJunior()
-      {
-         Autores autores = new Autores();
-         String nome = autores.getNomeFormatado("Joao Junior");
-         Assert.AreEqual("JUNIOR, Joao", nome);
+         var problema1 = new Problema1();
+         var resultado = problema1.somaMultiplosDe3E5MenoresQue(10);
+         var esperado = 23;
+         Assert.AreEqual(esperado, resultado);
       }
    }
 }
