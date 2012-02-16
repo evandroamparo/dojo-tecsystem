@@ -1,0 +1,40 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{a06461d3-ac87-40ee-9822-49e52c25f3c7}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="CestaCompras">
+    <MSBuild Projects="CestaCompras.dproj" Targets="" />
+  </Target>
+  <Target Name="CestaCompras:Clean">
+    <MSBuild Projects="CestaCompras.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="CestaCompras:Make">
+    <MSBuild Projects="CestaCompras.dproj" Targets="Make" />
+  </Target>
+  <Target Name="CestaComprasTest">
+    <MSBuild Projects="CestaComprasTest.dproj" Targets="" />
+  </Target>
+  <Target Name="CestaComprasTest:Clean">
+    <MSBuild Projects="CestaComprasTest.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="CestaComprasTest:Make">
+    <MSBuild Projects="CestaComprasTest.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="CestaCompras;CestaComprasTest" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="CestaCompras:Clean;CestaComprasTest:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="CestaCompras:Make;CestaComprasTest:Make" />
+  </Target>
+</Project>
