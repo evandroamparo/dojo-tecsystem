@@ -5,6 +5,6 @@ C:\Users\Evandro\Desktop\AutoresLivrosTest\AutoresLivrosTest\obj\Debug\AutoresLi
 C:\Users\Evandro\Desktop\AutoresLivrosTest\AutoresLivrosTest\obj\Debug\AutoresLivrosTest.pdb
 D:\Meus documentos\Desenvolvimento\Projetos\Dojo Tecsystem\AutoresLivrosTest\AutoresLivrosTest\bin\Debug\AutoresLivrosTest.dll
 D:\Meus documentos\Desenvolvimento\Projetos\Dojo Tecsystem\AutoresLivrosTest\AutoresLivrosTest\bin\Debug\AutoresLivrosTest.pdb
-D:\Meus documentos\Desenvolvimento\Projetos\Dojo Tecsystem\AutoresLivrosTest\AutoresLivrosTest\obj\Debug\ResolveAssemblyReference.cache
 D:\Meus documentos\Desenvolvimento\Projetos\Dojo Tecsystem\AutoresLivrosTest\AutoresLivrosTest\obj\Debug\AutoresLivrosTest.dll
 D:\Meus documentos\Desenvolvimento\Projetos\Dojo Tecsystem\AutoresLivrosTest\AutoresLivrosTest\obj\Debug\AutoresLivrosTest.pdb
+D:\Meus documentos\Desenvolvimento\Projetos\Dojo Tecsystem\AutoresLivrosTest\AutoresLivrosTest\obj\Debug\AutoresLivrosTest.csprojResolveAssemblyReference.cache
